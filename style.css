@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #555;
+    font-family: sans-serif;
+}
+
+.textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 15px 15px 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    text-align: right;
+    font-weight: bold;
+    border: none;
+    border-radius: 12px;
+}
+
+.container {
+    background-color: #1b1b1b;
+    padding: 15px;
+    border-radius: 24px;
+    box-shadow: 0 10px 15px;
+    max-width: 300px;
+}
+
+.tombol {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.tombol input {
+    border-radius: 50%;
+    height: 65px;
+    font-size: 20px;
+    border: none;
+    background-color: #3b3b3b;
+}
+
+.tombol input:active {
+    transform: scale(0.9);
+    box-shadow: 0 0 15px;
+}
+
+.operator {
+    color: rgb(61, 181, 181);
+    font-weight: bold;
+}
+
+.button {
+    color: rgb(255, 145, 0);
+}
+
+.hasil {
+    color:#fffb00;
+}

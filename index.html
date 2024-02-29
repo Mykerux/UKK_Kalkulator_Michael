@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="" name="forms">
+            <input type="textarea" class="textarea" name="textarea" value="0" readonly>
+        </form>
+        <div class="tombol">
+            <input type="button" class="operator" value="C" onclick="hapusAll()">
+            <input type="button" class="operator" value="Del" onclick="hapus()">
+            <input type="button" class="operator" value="x" onclick="tampil('*')">
+            <input type="button" class="operator" value=":" onclick="tampil('/')">
+
+            <input type="button" class="button" value="7" onclick="tampil('7')">
+            <input type="button" class="button" value="8" onclick="tampil('8')">
+            <input type="button" class="button" value="9" onclick="tampil('9')">
+            <input type="button" class="operator" value="+" onclick="tampil('+')">
+
+            <input type="button" class="button" value="4" onclick="tampil('4')">
+            <input type="button" class="button" value="5" onclick="tampil('5')">
+            <input type="button" class="button" value="6" onclick="tampil('6')">
+            <input type="button" class="operator" value="-" onclick="tampil('-')">
+
+            <input type="button" class="button" value="1" onclick="tampil('1')">
+            <input type="button" class="button" value="2" onclick="tampil('2')">
+            <input type="button" class="button" value="3" onclick="tampil('3')">
+            <input type="button" class="operator" value="." onclick="tampil('.')">
+
+            <input type="button" class="button" value="0" onclick="tampil('0')">
+            <input type="button" class="button" value="00" onclick="tampil('00')">
+            <input type="button" class="hasil" value="=" onclick="hasil('=')">
+            <input type="button" class="operator" value="%" onclick="tampil('%')">
+        </div>
+    </div>
+</body>
+</html>
